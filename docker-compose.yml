@@ -1,0 +1,11 @@
+version: "2"
+
+services:
+
+  web:
+    build: .
+    image: ciscn/ciscn_gzmtu_gqleung
+    restart: always
+    ports:
+      - "80:80"
+      - "22:22"
